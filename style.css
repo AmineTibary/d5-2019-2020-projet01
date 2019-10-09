@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Gotham Book";
+  src: url("fonts/gothambook.ttf");
+}
+
+@font-face {
+  font-family: Isabel Mine;
+  src: url("fonts/Isabel.otf");
+}
+
+@font-face {
+  font-family: "Isabel Regular";
+  src: url("fonts/isabel-regular.otf");
+}
+
+@font-face {
+  font-family: "Isabel Regular Italic";
+  src: url("fonts/isabel-regular-italic.otf");
+}
+
+body {
+  width: 60%;
+  margin: auto;
+  margin-top: 0; margin-bottom: 0;
+  font-family: Gotham Book;
+}
+
+header {
+  margin-bottom: 8%;
+}
+
+.imgheader {
+  max-width: 100%;
+}
+
+#hrchap1 {
+    width: 45%;
+    text-align: left !important;
+    margin-left: 0;
+}
+
+#hrchap2 {
+  width: 45%;
+  text-align: right !important;
+  margin-right: 0;
+}
+
+p {
+  font-family: Gotham Book;
+  text-align: justify;
+  font-size: 13pt;
+  color: #5d5d5d;
+  line-height: 1.3;
+}
+
+.tdbodyparagraph1 {
+  display: table-cell;
+  width: 50%;
+  padding: 0% 5% 1% 1%;
+}
+
+.tdbodyparagraph2 {
+  display: table-footer-group;
+  width: 50%;
+  padding: 1% 1% 1% 1%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5
+  {
+  font-family: Isabel Regular;
+  width: 70%;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 22pt;
+}
+
+.boldpar {
+  font-weight: 1000 !important;
+  font-size: 14pt;
+}
+
+.spanwordyellow {
+  background-color: #f7ca47;
+  padding: 0px 8px 0px 8px;
+}
+
+.divquote {
+  background-color: #f7ca47;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+}
+
+.lastquote {
+  color: #fff;
+  font-size: 21pt;
+  font-family: Isabel Regular;
+  margin-right: auto; margin-left: auto;
+}
+
+.right {
+  font-family: Isabel Regular;
+  color: #000;
+  font-size: 20pt;
+  margin-right: auto; margin-left: auto;
+  text-align: center;
+  margin-top: 15%;
+}
+
+/*.right {
+  background-color: #f7ca47;
+  margin-right: auto; margin-left: auto;
+}*/
+
+.h1class {
+  position: relative;
+}
+
+.imgyellowcercle {
+  position: absolute;
+  width: 5%;
+  margin: 4%;
+  left: 27%;
+}
+
+.imgyellowcercle2 {
+  position: absolute;
+  width: 4%;
+  margin: 0;
+  margin-top: -10px;
+}
+
+.h2title {
+  position: relative;
+  margin-top: 7%;
+}
+
+table {
+  margin-bottom: 3%;
+}
